@@ -6,10 +6,6 @@ app.get('/', function (req, res) {
     res.send(' first express http server');
 });
 
-app.get('/Helloworld', function (req, res) {
-    res.send('Hello world with express server');
-});
-
 app.use(function(req, res, next) {
     res.status(404).send("404 error :)");
 });
