@@ -8,8 +8,8 @@
   "version": "1.0.0",
   "description": "ITIS 6177 System integration week 1 Assignment",
   "main": "Helloworld.js",
-  "devDependencies": {},
   "scripts": {
+    "start": "node expressserver.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
