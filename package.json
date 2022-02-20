@@ -2,6 +2,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "init": "^0.1.2",
+    "node": "^17.4.0",
     "nodemon": "^2.0.15"
   },
   "name": "itis-6177-week-01",
@@ -24,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/RamavathyNidamanuri/ITIS-6177-Week-01/issues"
   },
-  "homepage": "https://github.com/RamavathyNidamanuri/ITIS-6177-Week-01#readme"
+  "homepage": "https://github.com/RamavathyNidamanuri/ITIS-6177-Week-01#readme",
+  "devDependencies": {}
 }
