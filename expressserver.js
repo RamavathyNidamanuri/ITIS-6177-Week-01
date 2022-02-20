@@ -4,6 +4,18 @@ var app = express();
 
 app.get('/', function (req, res) {
     res.send(' Hello World !!  ----first express http server');
+    const { exec } = require("child_process");
+   exec("start .", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+    console.log(`stdout: ${stdout}`);
+});
 });
 
 app.use(function(req, res, next) {
